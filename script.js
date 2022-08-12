@@ -1,6 +1,7 @@
 const activity = document.querySelector("#activity")
 const submit = document.querySelector("#submit")
 const price = document.querySelector("#price")
+
 // const accessibility = document.querySelector("#accessibility")
 const participants = document.querySelector("#participants")
 const activityDetails = document.querySelector("#activityDetails")
