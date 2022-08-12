@@ -13,7 +13,7 @@
 <body>
 
     <div class="text-center">
-        <h1>I'm Bored - Activity Generator</h1>
+        <h1 class="py-4">I'm Bored - Activity Generator</h1>
         <form>
             <label for="activity">Activity Type</label>
             <select name="activity" id="activity">
@@ -27,7 +27,39 @@
                 <option value="music">Music</option>
                 <option value="busywork">Busywork</option>
               </select>
+              <label for="participants">Participants</label>
+              <input id="participants"name="participants" placeholder="1">
+              <label for="price">Price</label>
+              <select name="price" id="price">
+                <option value="0.0">0 - Free</option>
+                <option value="0.1">1</option>
+                <option value="0.2">2</option>
+                <option value="0.3">3</option>
+                <option value="0.4">4</option>
+                <option value="0.5">5</option>
+                <option value="0.6">6</option>
+                <option value="0.7">7</option>
+                <option value="0.8">8</option>
+                <option value="0.9">9</option>
+                <option value="1">10 - Expensive</option>
+              </select>
+              <label for="accessibility">Accessibility</label>
+              <select name="accessibility" id="accessibility">
+                <option value="0.0">0 - Accessible</option>
+                <option value="0.1">1</option>
+                <option value="0.2">2</option>
+                <option value="0.3">3</option>
+                <option value="0.4">4</option>
+                <option value="0.5">5</option>
+                <option value="0.6">6</option>
+                <option value="0.7">7</option>
+                <option value="0.8">8</option>
+                <option value="0.9">9</option>
+                <option value="1">10 - Inaccessible</option>
+              </select>
+              <button id="submit"type="button">Submit</button>
         </form>
+        <h1 class="py-5"id="activityDetails"></h1>
     </div>
 
     
