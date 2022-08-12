@@ -1,3 +1,7 @@
+// Todo - Reimplement accessibility feature with a maximum value instead of set value
+// Remember to add a new parameter for accessibility on the generateActivity function
+// The problem with old implementation of accessibility was it was too stict and did not return many results via the api
+
 const activity = document.querySelector("#activity")
 const submit = document.querySelector("#submit")
 const price = document.querySelector("#price")
