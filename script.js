@@ -37,4 +37,5 @@ submit.addEventListener("click",()=>{
             } else{
             activityDetails.innerHTML= data.activity}   
         })
+        .catch (error =>{console.log(error)})
 })
