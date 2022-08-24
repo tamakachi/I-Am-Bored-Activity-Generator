@@ -14,7 +14,7 @@ const generateActivity = async (type,price,participants)=>{
 
     
 
-    const request = await fetch(`https://www.boredapi.com/api/activity?type=${type}&minprice=0&maxprice=${price}&participants=${participants}`)
+    const request = await fetch(`http://www.boredapi.com/api/activity?type=${type}&minprice=0&maxprice=${price}&participants=${participants}`)
     return request.json()
 
 }
